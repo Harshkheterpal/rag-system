@@ -1,0 +1,44 @@
+@"
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+ENV/
+
+# Environment variables (NEVER commit .env)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+*.log
+*.sqlite
+*.db
+data/uploads/
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Distribution
+build/
+dist/
+*.egg-info/
+"@ | Out-File -Encoding UTF8 ".gitignore"
